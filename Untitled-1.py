@@ -62,10 +62,11 @@ fg.logo('http://ex.com/logo.jpg')
 fg.subtitle('This is a cool feed!')
 fg.link( href='http://larskiesow.de/test.atom', rel='self' )
 fg. language('en')
-fg.rss_file('rss.xml')
+fg.rss_file('docs/rss.xml')
 
 
 # %% [markdown]
 # 
+
 
 
