@@ -41,7 +41,7 @@ df['날짜'] = pd.to_datetime(df['날짜'], format='%Y-%m-%d', errors='coerce')
 df = df.sort_values(by='날짜', ascending=False)
 
 # CSV 저장
-df.to_csv("상명대_공지사항_fiiiinaㅣㅣㅣl.csv", index=False, encoding="utf-8-sig")
+df.to_csv("docs/상명대_공지사항_fiiiinaㅣㅣㅣl.csv", index=False, encoding="utf-8-sig")
 
 print("CSV 저장 완료")
 print(df.head())
@@ -67,6 +67,7 @@ fg.rss_file('docs/rss.xml')
 
 # %% [markdown]
 # 
+
 
 
 
